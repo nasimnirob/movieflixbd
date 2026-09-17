@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className="max-w-6xl mx-auto flex items-center justify-between px-5 py-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-5 py-4">
             <Link to="/" className="flex items-center gap-2 focus-ring rounded">
                 <span className="font-display text-2xl text-marquee uppercase">Movie Flix</span>
                 <span className="hidden sm:inline text-slate text-sm font-body tracking-tight">

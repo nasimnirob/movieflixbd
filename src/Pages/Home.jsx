@@ -1,9 +1,12 @@
 import React from 'react';
 import Hero from '../Components/Hero';
+import { ScrollRestoration } from 'react-router-dom';
 
 const Home = () => {
     return (
         <div>
+            
+            <ScrollRestoration />
 
             <Hero />
 
