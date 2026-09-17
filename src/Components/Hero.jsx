@@ -13,7 +13,7 @@ const Hero = () => {
                     }}
                 />
                 <div className="max-w-4xl mx-auto px-5 pt-24 pb-28 flex flex-col items-center text-center gap-6">
-                    <div className="-mt-30 mb-8 inline-flex items-center gap-2 rounded-full border border-slate bg-ink/95 px-4 py-1.5 text-sm font-medium text-slate shadow-sm backdrop-blur">
+                    <div className="uppercase -mt-30 mb-8 inline-flex items-center gap-2 rounded-full border border-slate bg-ink/95 px-4 py-1.5 text-[11px] font-medium text-slate shadow-sm backdrop-blur">
                         <span className="relative flex h-2 w-2">
                             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-marquee opacity-75" />
                             <span className="relative inline-flex h-2 w-2 rounded-full bg-marquee" />
@@ -26,12 +26,12 @@ const Hero = () => {
                     </h1>
 
                     <p className="font-body text-slate max-w-lg text-lg">
-                        Marquee pulls from a living catalog of thousands of series so you can browse,
+                        MovieFlixBD pulls from a living catalog of thousands of series so you can browse,
                         search, and settle tonight's watch in under a minute.
                     </p>
                     <Link
                         to="/movies"
-                        className="mt-2 px-24 py-14 rounded-3xl bg-black/10 backdrop-blur  border border-white/20 text-white/80 font-body font-semibold hover:bg-black/5 hover:backdrop:blur transition-all duration-300 focus-ring"
+                        className="mt-2 px-24 py-14 rounded-3xl bg-black/10 backdrop-blur text-xl border border-white/20 text-white/80 font-body font-semibold hover:bg-black/5 hover:backdrop:blur transition-all duration-300 focus-ring"
                     >
                         Explore Now
                     </Link>
