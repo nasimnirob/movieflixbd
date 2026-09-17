@@ -7,7 +7,7 @@ const MainLayout = () => {
     return (
         <>
             <div>
-                <nav>
+                <nav className="border-b border-white/10 bg-ink/50 backdrop-blur-3xl sticky top-0 z-40">
                     <Navbar />
                 </nav>
 
